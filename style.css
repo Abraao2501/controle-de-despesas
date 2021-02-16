@@ -79,7 +79,7 @@ label {
 }
 
 input[type='text'],
-input[type='number'] {
+input[type='text'] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
