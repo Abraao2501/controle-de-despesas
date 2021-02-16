@@ -73,7 +73,7 @@ form.addEventListener('submit', event => {
     const transactionName = inputTransationName.value.trim()
     const transactionAmount = inputTransationAmount.value.trim()
 
-    if (transactionName == '' || transactionAmount == '') {
+    if (transactionName == '' || transactionAmount == '' || isNaN(transactionAmount) == true) {
         alert('Por favor preencha as informações da transação corretamente')
         return
     }
