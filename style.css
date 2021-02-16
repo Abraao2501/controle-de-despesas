@@ -150,3 +150,18 @@ input[type='number'] {
 .transactions li:hover .delete-btn {
   opacity: 1;
 }
+@media(max-width: 416px) {
+  .delete-btn {
+    left: 4%;
+  }
+  .transactions li {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0;
+  }
+}
